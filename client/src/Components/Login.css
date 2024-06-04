@@ -1,0 +1,67 @@
+/* Login.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.forms {
+  max-width: 800px;
+  /* padding: 20px; */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+ /* margin-bottom: 20px; /* Added margin-bottom for spacing between heading and fields */
+}
+
+.field {
+  /* margin-bottom: 10px; Added margin-bottom for spacing between fields */
+  font-size: 17px;
+  text-align: left;
+  width: 106%;
+  font-weight: 500;
+}
+
+.form-control,
+.btn-primary {
+  width: calc(100% - 20px); /* Adjusted width to accommodate border and padding */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* .custom-control-input {
+  margin-right: 10px;
+} */
+
+.forgot-password {
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}

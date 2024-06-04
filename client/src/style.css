@@ -1,0 +1,120 @@
+.App {
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .books-container {
+    display:block;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .book-group {
+    display: block;
+    flex-direction: column; /* Display books in a column */
+    gap: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center; /* Align items in the center horizontally */
+  }
+  
+  .book {
+    flex: 0 1 calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: rgb(211, 239, 229);
+  }
+  
+  h2,
+  p,
+  span {
+    margin: 0;
+  }
+  
+  .delete {
+    border: none;
+    padding: 3px 6px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(245, 191, 191);
+    color: rgb(242, 100, 100);
+  }
+  
+  .update {
+    border: none;
+    padding: 3px 6px;
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+  }
+  
+  .updatetext {
+    border: none;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  
+  
+  .addbutton {
+    border: none;
+    padding: 3px 6px;
+    background-color: green;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 130px;
+    border: 1px solid rgb(204, 204, 243);
+    color: rgb(139, 139, 234);
+  }
+  
+  .addtext {
+    text-decoration: none;
+    font-weight: 200;
+    color: white;
+  }
+  
+  input {
+    width: 240px;
+    padding: 10px;
+    border: 1px solid gray;
+  }
+  .formButton {
+    border: none;
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
